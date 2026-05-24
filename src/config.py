@@ -8,6 +8,14 @@ config = {
     "step_dist": 5 * 0.025, # speed * tt
     "wind_direction": 0,
     "wind_speed": 0,
+    # minimum separation radius around each aircraft
+    "sep_radius": 0.2,
+
+    # data generation parameters
+    # temperature scaling for heading sampling
+    "temperature": 5,
+    # bias towards continuing present heading
+    "bias": 0.5,
 
 
     # model 
